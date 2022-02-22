@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NikisXD</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
@@ -22,7 +23,7 @@
                         <a href="#" class="link">Productos</a>
                         <a href="#" class="link">Sucursal</a>
                         <a href="#" class="link">Clientes</a>
-                        <a href="#" class="link">Contacto</a>
+                        <a href="#" class="link-active">Contacto</a>
                     </div>
                 </div>
             </nav>
@@ -31,16 +32,17 @@
                 <div class="hero-text">
                     <h1 class="titulo">Las mejores <span class="title-change">zapatillas</span></h1>
                     <p class="second">Nos encargamos de las mejores <span class="second-change"> zapatillas</span></p>
-                    <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5pa2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                    <a href="#" class="btn">Adquiere tuz zapatillas</a>
                 </div>
+                <img class="img-header" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5pa2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
             </section>
         </header>
 
         <main>
-            <section class="sucursal">
+            <section class="productos">
                 <div class="container">
                     <h2 class="subtitulo">Nuestros Productos</h2>
-                    <p class="text-section">Ofrecemos las zapatillas soñadas para ti</p>
+                    <p class="copy_section">Ofrecemos las zapatillas soñadas para ti</p>
 
                     <article class="container-cards">
                         <div class="card">
@@ -51,15 +53,16 @@
                                 <p class="card-descripcion"> College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
                                 <a href="" class="card-button">¡Adquierelo ya!</a>
                             </div>
-
-                            <div class="card">
-                                <img class="card-img" src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
-                                <div class="card-text">
-                                    <p class="card-list"> Nikis </p>
-                                    <h3 class="card-titulo">Nikis Challenger</h3>
-                                    <p class="card-descripcion"> College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
-                                    <a href="" class="card-button">¡Adquierelo ya!</a>
-                                </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                            <div class="card-text">
+                               <p class="card-list"> Nikis </p>
+                               <h3 class="card-titulo">Nikis Challenger</h3>
+                               <p class="card-descripcion"> College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+                                <a href="" class="card-button">¡Adquierelo ya!</a>
+                            </div>
+                        </div>
 
                                 <div class="card">
                                     <img class="card-img" src="https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
@@ -69,17 +72,18 @@
                                         <p class="card-descripcion"> College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
                                         <a href="" class="card-button">¡Adquierelo ya!</a>
                                     </div>
-                        </div>
+                                </div>
+                        
                     </article>
                 </div>
             </section>
 
             <section class="sucursal container">
                 <h2 class="subtitulo">Más sobre nosotros</h2>
-                <p class="text-section">Ofrecemos las zapatillas soñadas para ti</p>
+                <p class="copy_section">Ofrecemos las zapatillas soñadas para ti</p>
 
-                <article>
-                    <div class="card-sucursal">
+                <article class="container-bg">
+                    <div class="card">
                         <div class="card-text">
                             <h3 class="card-titulo">Sucursal en el Sur</h3>
                             <h3 class="card-date">15 de Julio de 2015</h3>
@@ -95,7 +99,7 @@
                         </div>
                     </div>
 
-                    <div class="card-sucursal">
+                    <div class="card">
                         <div class="card-text">
                             <h3 class="card-titulo">Sucursal en el Norte</h3>
                             <h3 class="card-date">29 de Enero de 2019</h3>
@@ -116,7 +120,7 @@
             <section class="comentario">
                 <div class="container">
                     <h2 class="subtitulo">Clientes satisfechos</h2>
-                    <p class="text-section">Más clientes confian en nosotros.</p>
+                    <p class="copy_section">Más clientes confian en nosotros.</p>
 
                     <div class="comentario-container">
                         <div class="comentario-card">
@@ -126,17 +130,6 @@
                                 <div class="comentario-info">
                                     <div class="comentario-person">Pablo Nervez Paz</div>
                                     <p class="comentario-detalle">Me encanta la atención que ofrecen y son muy eficientes.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="comentario-card">
-                            <img class="comentario-img" src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-                            <div class="comentario-campo">
-                                <i class='bx bxl-linkedin-square comentario-logo'></i>
-                                <div class="comentario-info">
-                                    <div class="comentario-person">Luis Porch Newl</div>
-                                    <p class="comentario-detalle">Sus productos son de buena calidad, y hay muchas ofertas.</p>
                                 </div>
                             </div>
                         </div>
@@ -152,18 +145,26 @@
                             </div>
                         </div>
 
-                        <div class="comentario-card">
+                        <div class="black comentario-card">
                             <div class="comentario-text">
                                 <img class="nik-logo" src="https://i.pinimg.com/236x/23/82/cb/2382cb64346bb5970afe3f2e7ba92431.jpg" alt="">
-                                <p>Adquiere tus zapatillas de ensueño con nosotros, y se un cliente satisfecho de Nikis</p>
+                                <p class="nik-text">Adquiere tus zapatillas de ensueño con nosotros, y se un cliente satisfecho de Nikis</p>
+
+                                <div class="comentario-campo none">
+                                    <img class="comentario-logo img-logo" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                    <div class="comentario-info">
+                                        <div class="comentario-person">Pablo Escudero Sanchez</div>
+                                        <p class="comentario-detalle">Gerente de Nikis.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="email container">
-                <h2 class="subtitulo">Somo tu mejor opción</h2>
+            <section class="container email-container">
+                <h2 class="subtitulo">Somos tu mejor opción</h2>
                 <p class="copy_section">Quae est sint quod animi possimus laborum facere, vel repellendus ipsam quaerat saepe harum facilis.</p>
 
                 <div class="check">
@@ -192,32 +193,33 @@
         </main>
 
         <footer class="footer">
-            <div class="container footer">
+            <div class="container footer-div">
                 <section class="app-section">
+                    <h3 class="titulo-footer">Descarga nuestra App</h3>
                     <div class="app">
-                    <div class="app-item">
-                        <i class='bx bxl-apple app-logo'></i>
-                        <h4 class="app-titulo">App Store</h4>
+                        <div class="app-item">
+                            <i class='bx bxl-apple app-logo'></i>
+                            <h4 class="app-titulo">App Store</h4>
+                        </div>
+
+                        <div class="app-item">
+                            <i class='bx bxl-play-store app-logo'></i>
+                            <h4 class="app-titulo">Play Store</h4>
+                        </div>
                     </div>
 
-                    <div class="app-item">
-                        <i class='bx bxl-play-store app-logo'></i>
-                        <h4 class="app-titulo">Play Store</h4>
+                    <div class="footer-text">
+                        <p class="copyright">NikisXD &copy; 2022 Todos los derechos reservados</p>
+                        <a href="#" class="politica margin">Política de privacidad</a>
+                        <a href="#" class="politica">Termino y condiciones</a>
                     </div>
-                </div>
-
-                <div class="footer-text">
-                    <p class="copyright">NikisXD &copy; 2022 Todos los derechos reservados</p>
-                    <a href="#" class="politica">Política de privacidad</a>
-                    <a href="#" class="politica">Termino y condiciones</a>
-                </div>
                 </section>
                 
                 <section class="email-section">
                     <h3 class="titulo-footer">¿Estás listo para adquirir tus zapastillaas de ensueño?</h3>
-                    <form class="datos">
+                    <form class="modificado datos">
                         <input type="text" class="datos-text" placeholder="Ingresa tu email">
-                        <input type="submit" class="datos-submit" value="Deseo adquirir mis zapatillas">
+                        <input type="submit" class="datos-submit" value="Deseo adquirir">
                     </form>
                     <div class="redes">
                         <p class="redes-text">Siguenos en:</p>
@@ -234,18 +236,17 @@
                     <h3 class="contact-text">NikisXD</h3>
                 </div>
                 <div class="item-contact">
-                    <i class='bx bx-gmail logo-contact' ></i>
+                    <i class='bx bx-mail-send logo-contact' ></i>
                     <h3 class="contact-text">NikisXD@nay.es</h3>
                 </div>
                 <div class="item-contact">
                     <i class='bx bx-map logo-contact' ></i>
                     <h3 class="contact-text">Ubicanos</h3>
                 </div>
-                <div class="item-contact">
-                    <i class='bx bx-whatsapp logo-contact' ></i>
+                <div class="item-contact select">
+                    <i class='bx bx-chat logo-contact color' ></i>
                     <h3 class="contact-text">Contáctanos ahora</h3>
                 </div>
-                
             </div>
         </footer>
 
